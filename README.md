@@ -2,7 +2,7 @@
 
 This is Jerome Siljan's GitHub account
 
-[My Resume](Jerome\ Siljan.pdf)
+[My Resume](https://github.com/JeromeSiljanUTA/JeromeSiljanUTA/blob/main/Jerome%20Siljan.pdf)
 
 ## IBM Analyzing Data with Python Certification
  - ![Certification](https://github.com/JeromeSiljanUTA/Analyzing-Data-IBM/blob/master/Certificate.jpg)
