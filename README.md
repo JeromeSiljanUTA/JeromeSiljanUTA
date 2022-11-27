@@ -25,7 +25,3 @@ This is Jerome Siljan's GitHub account
 
 ### [Media Control Sway](https://github.com/JeromeSiljanUTA/media-control-sway)
    - This project was just meant to be something small to make my life easier, but I ended up learning how to take feedback and resolve GitHub issues, 
-
-## IBM Analyzing Data with Python Certification
- - ![Certification](https://github.com/JeromeSiljanUTA/Analyzing-Data-IBM/blob/master/Certificate.jpg)
-
