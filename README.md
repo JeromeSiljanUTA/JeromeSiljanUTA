@@ -5,6 +5,13 @@ This is Jerome Siljan's GitHub account
 
 ## Repository Highlights
 
+### [Probability And Statistics](https://github.com/JeromeSiljanUTA/Probability-and-Statistics)
+ - Just some fun stuff from my textbook being written out in code
+ 
+### [Ant Colony Optimization](https://github.com/JeromeSiljanUTA/aco)
+ - I took this paper: https://web2.qatar.cmu.edu/~gdicaro/15382/additional/aco-book.pdf and implemented the algorithm.
+ - Created the program using CUDA and parallelized operations using matrices.
+
 ### [Forest for Flood](https://github.com/JeromeSiljanUTA/forest-for-flood)
  - Trained and tuned random forest to assign flood insurance policies based on features such as latitude, longitude, elevation, etc.
  - Processed over 50 million data points from FEMA’s flood insurance database with pyspark’s RDDs to ease fast, multithreaded processing.
