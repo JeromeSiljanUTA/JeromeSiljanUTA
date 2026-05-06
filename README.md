@@ -7,7 +7,7 @@ This is Jerome Siljan's GitHub account
 ### Build outputs (PDF + DOCX)
 
 ```bash
-nix build .#resume
+nix run .#build-resume
 ```
 
 Outputs will be in:
