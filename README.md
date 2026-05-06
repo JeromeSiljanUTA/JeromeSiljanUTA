@@ -3,6 +3,32 @@ This is Jerome Siljan's GitHub account
 
 [My Resume](https://github.com/JeromeSiljanUTA/JeromeSiljanUTA/blob/main/Jerome%20Siljan.pdf)
 
+## Resume Build Instructions
+### Build outputs (PDF + DOCX)
+
+```bash
+nix build .#resume
+```
+
+Outputs will be in:
+
+```
+./result/
+```
+
+### Dev shell (for debugging)
+
+```bash
+nix develop
+```
+
+Manually:
+
+```bash
+pdflatex resume.tex
+pandoc resume.tex -o resume.docx
+```
+
 ## Repository Highlights
 
 ### [Probability And Statistics](https://github.com/JeromeSiljanUTA/Probability-and-Statistics)
