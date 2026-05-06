@@ -37,7 +37,8 @@
 
         installPhase = ''
           mkdir -p $out
-          cp resume.pdf resume.docx $out/
+          cp -f resume.pdf "$out/Jerome Siljan.pdf"
+          cp -f resume.docx "$out/Jerome Siljan.docx"
         '';
       };
 
@@ -51,10 +52,10 @@
           OUT=$(nix build .#resume --no-link --print-out-paths)
 
           echo "Copying files to current directory..."
-          cp "$OUT/resume.pdf" .
-          cp "$OUT/resume.docx" .
+          cp -f "$OUT/Jerome Siljan.pdf" .
+          cp -f "$OUT/Jerome Siljan.docx" .
 
-          echo "Done: resume.pdf and resume.docx are in $(pwd)"
+          echo "Done: Jerome Siljan.pdf and Jerome Siljan.docx are in $(pwd)"
         '');
       };
     };
